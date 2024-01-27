@@ -36,6 +36,7 @@ def find_matching_word(original_word, word_list):
     if matching_words:
         matching_word = random.choice(matching_words)
     else:
+        # return original if no match
         matching_word = original_word
 
     return matching_word
