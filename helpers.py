@@ -34,6 +34,7 @@ def find_matching_word(original_word, word_list):
     ]
 
     if matching_words:
+        # generate unique output
         matching_word = random.choice(matching_words)
     else:
         # return original if no match
